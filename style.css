@@ -1,0 +1,59 @@
+*{
+  background-color: aquamarine;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .ice-cream-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .ice-cream-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .ice-cream-item h2 {
+    margin-top: 0;
+  }
+  
+  .ice-cream-item p {
+    margin-bottom: 0;
+  }
+  .button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
